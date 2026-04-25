@@ -11,3 +11,9 @@ Frontend development:
 cd frontend
 npm run dev
 ```
+
+Backend development:
+
+ ```sh
+go run main.go
+```
