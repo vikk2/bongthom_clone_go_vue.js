@@ -1,0 +1,213 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.big_table{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo_column{
+    width: 33%;
+    text-align: right;
+}
+.bong_thom{
+    font-size: 48px; 
+    font-family: 'Arial Black'; 
+    color: #066; 
+    padding: 0; 
+    line-height: 1; 
+    padding-right: 13px;
+}
+.dot_com{
+    font-size: 48px; 
+    font-family: arial narrow; 
+    color: #003399; 
+    padding: 0; 
+    line-height: 1; 
+    padding-top: 4px;
+}
+.logo_sub{
+    font-family: garamond, Arial;
+    font-weight:bolder; 
+    font-size:16px; 
+    text-align:right;
+}
+.row1{
+    width: 100%;
+}
+.tagline_column{
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.logo_column a{
+    text-decoration: none;
+}
+
+.row2{
+    width: 100%;
+    background-color: #E0E8F8;
+}
+
+.row2 a{
+    text-decoration: none;
+    color: #0000EE;
+    font-size: 12px;    
+}
+.unicode_khmer img{
+    vertical-align: middle;
+}
+.flag a{
+    text-decoration: none;
+}
+.flag{
+    width:4%;
+    vertical-align: middle;
+}
+.flag-img{
+    width: 14px;
+}
+.register_box{
+    font-size: 10px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.register_box a{
+    color: #0000EE;
+}
+.register_inside{
+    padding: 0;
+}
+.job_bar{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.job_bar img{
+    vertical-align: middle;
+}
+.submit_btn{
+    padding: 0;
+    border-width: 1;
+    font-family: verdana;
+    cursor: pointer;
+    font-size: 8pt;
+    color: #008000;
+}
+.red-row{
+    background-color: #FFE8E8;
+    font-size: 8pt;
+    font-weight: bolder;
+    cursor: pointer;
+    vertical-align: middle;  
+}
+.red-row a{
+    font-size: 8pt;
+    text-decoration: none;
+    color: #000000;
+    vertical-align: middle;
+}
+.red-row2 a{
+    font-size: 8pt;
+    color: #0000EE; 
+    line-height: 1.2;
+    vertical-align: top;
+}
+.red-row2{
+    background-color: #FFE8E8;
+    font-size: 8pt;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+}
+.red-row2 img{
+    float: left;
+}
+.red-row3{
+    background-color: #FFE8E8;
+    font-size: 8pt;
+    cursor: pointer;
+    padding: 0;
+}
+.red-row3 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.red-row3-link a{
+    color:#0000EE;
+    font-weight: bolder;
+}
+.red-row3-link{
+    background-color: #FFE8E8;
+    font-size: 8pt;
+    cursor: pointer;
+    padding: 0;
+}
+.red-row4{
+    background-color: #FFE8E8;
+    font-size: 8pt;
+    cursor: pointer;
+    padding: 0;
+}
+.red-row4 a{
+    color:#000000;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.red-row5{
+    background-color: #FFE8E8;
+    font-size: 8pt;
+    cursor: pointer;
+    padding: 0;
+}
+.red-row5 a{
+    color:#0000EE;
+}
+.red-row6{
+    background-color: #FFE8E8;
+    font-size: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+}
+.red-row6 a{
+    font-size: 12px;
+    color: #0000EE;
+    font-weight: bolder;
+}
+.hr1{
+    height: 2px;
+    width: 50%;
+}
+.label-new{
+    color: #FF0000; 
+    vertical-align: middle; 
+    font-size: 0.8em; 
+    font-family: verdana; 
+    font-weight: bold;
+}
+.nav-col{
+    text-decoration: none;
+    color: #490106;
+    font-weight: bolder;
+}
+.logo-bongthom-text{
+    font-size: 48px; 
+    font-family: 'Arial Black'; 
+    color: #066; 
+    padding: 0; 
+    line-height: 1; 
+    padding-right: 13px;
+}
+.logo-dotcom-text{
+    font-size: 48px; font-family: arial narrow; color: #003399; padding: 0; line-height: 1; padding-top: 4px;
+}
+.logo-sub-title{
+    font-family:Garamond; font-weight:bolder; font-size:16px; text-align:right;
+}
+.p-r-3{
+    padding-right: 3px;
+}
