@@ -6,5 +6,6 @@ import (
 )
 
 func OtherServiceHandler(c fiber.Ctx) error{
-	return c.JSON(data.OtherserviceItems)
+	data := data.InitOtherServiceData()
+	return c.JSON(data.GetAll())
 }

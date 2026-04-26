@@ -6,5 +6,6 @@ import (
 )
 
 func SpecialScheduleHandler(c fiber.Ctx) error{
-	return c.JSON(data.SpecialScheduleItems)
+	data := data.InitSpecialScheduleData()
+	return c.JSON(data.GetAll())
 }

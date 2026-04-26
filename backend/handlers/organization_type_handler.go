@@ -6,5 +6,6 @@ import (
 )
 
 func OrganizationTypeHandler(c fiber.Ctx) error {
-	return c.JSON(data.OrganizationTypeItems)
+	data := data.InitOrganizationTypeData()
+	return c.JSON(data.GetAll())
 }

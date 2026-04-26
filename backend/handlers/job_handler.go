@@ -6,5 +6,6 @@ import (
 )
 
 func JobHandler(c fiber.Ctx) error{
-	return c.JSON(data.JobItems)
+	data := data.InitJobData()
+	return c.JSON(data.GetAll())
 }

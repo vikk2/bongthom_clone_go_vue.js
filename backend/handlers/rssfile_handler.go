@@ -6,5 +6,6 @@ import (
 )
 
 func RssFileHandler(c fiber.Ctx) error{
-	return c.JSON(data.RssFileItems)
+	data := data.InitRssFileData()
+	return c.JSON(data.GetAll())
 }

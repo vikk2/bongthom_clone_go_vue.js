@@ -6,5 +6,6 @@ import (
 )
 
 func ClassifiedHandler(c fiber.Ctx) error{
-	return c.JSON(data.ClassifiedItems)
+	data := data.InitClassifiedData()
+	return c.JSON(data.GetAll())
 }

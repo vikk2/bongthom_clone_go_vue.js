@@ -7,6 +7,7 @@ import (
 )
 
 func AnnouncementHandler(c fiber.Ctx) error{
-	return c.JSON(data.AnnouncementItems)
+	data := data.InitAnnouncementData()
+	return c.JSON(data.GetAll())
 }
 

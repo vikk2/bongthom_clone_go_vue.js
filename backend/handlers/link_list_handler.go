@@ -6,5 +6,6 @@ import (
 )
 
 func LinkListHandler(c fiber.Ctx) error{
-	return c.JSON(data.LinkListItems)
+	data := data.InitLinkListData()
+	return c.JSON(data.GetAll())
 }
